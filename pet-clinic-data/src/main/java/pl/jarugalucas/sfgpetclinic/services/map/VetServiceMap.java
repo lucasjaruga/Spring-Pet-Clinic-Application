@@ -1,6 +1,5 @@
 package pl.jarugalucas.sfgpetclinic.services.map;
 
-import pl.jarugalucas.sfgpetclinic.model.Person;
 import pl.jarugalucas.sfgpetclinic.model.Vet;
 import pl.jarugalucas.sfgpetclinic.services.CrudService;
 
