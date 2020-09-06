@@ -12,4 +12,10 @@ public class IndexController {
         // it'll return index.html if I use Thymeleaf. it's just simple controller to get index page
         return "index";
     }
+
+    @RequestMapping("/oups")
+    public String oups(){
+
+        return "notImplemented";
+    }
 }
