@@ -1,5 +1,6 @@
 package pl.jarugalucas.sfgpetclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import pl.jarugalucas.sfgpetclinic.model.Visit;
 import pl.jarugalucas.sfgpetclinic.services.VisitService;
@@ -7,6 +8,7 @@ import pl.jarugalucas.sfgpetclinic.services.VisitService;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override
